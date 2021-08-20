@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafa;
+}
+
+.app__headerImage {
+  object-fit: contain;
+}
