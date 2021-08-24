@@ -81,7 +81,7 @@ function App() {
     event.preventDefault();
 
     auth.signInWithEmailAndPassword(email, password)
-    .catch((error) => alert(error.message))
+    .catch(error => alert(error.message))
 
     setOpenSignIn(false);
   }
